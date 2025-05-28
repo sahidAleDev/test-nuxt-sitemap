@@ -48,4 +48,22 @@ export default defineNuxtConfig({
     },
   },
   compatibilityDate: "2025-03-27",
+  sitemap: {
+    /*
+    urls: async () => {
+      // Simulación: aquí pondrías tus slugs dinámicos
+      const posts = ["mi-primer-post", "otro-post", "post-increible"];
+
+      return posts.map((slug) => ({
+        loc: `/blog/${slug}`,
+        lastmod: new Date().toISOString(),
+      }));
+    },
+    */
+  },
+  nitro: {
+    prerender: {
+      routes: ["/sitemap.xml"],
+    },
+  },
 });
