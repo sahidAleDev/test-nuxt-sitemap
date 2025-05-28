@@ -10,7 +10,7 @@ useSeoMeta({
   ogTitle: 'My Amazing Site',
   description: 'This is my amazing site, let me tell you all about it.',
   ogDescription: 'This is my amazing site, let me tell you all about it.',
-  ogImage: 'https://example.com/image.png',
+  ogImage: 'https://imgcdn.terio.xyz/images/2025/05/27/logo.png',
   twitterCard: 'summary_large_image',
 })
 </script>
